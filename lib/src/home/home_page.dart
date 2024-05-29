@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'widgets/custom_drawer.dart';
+import 'widgets/user_image_button.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -19,6 +20,7 @@ class _HomePageState extends State<HomePage> {
         actions: const [
           Padding(
             padding: EdgeInsets.only(right: 8),
+            child: UserImageButton(),
           ),
         ],
       ),
