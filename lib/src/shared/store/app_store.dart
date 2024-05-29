@@ -10,6 +10,6 @@ class AppStore {
   }
 
   void save() {
-    //TODO: salvar os dadnos na base loca
+    //TODO: salvar os dadnos na base local
   }
 }
