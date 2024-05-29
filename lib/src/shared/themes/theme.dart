@@ -9,7 +9,7 @@ final ThemeData lightTheme = ThemeData(
   ),
   floatingActionButtonTheme: FloatingActionButtonThemeData(
     backgroundColor: _lightScheme.primary,
-    foregroundColor: Colors.white,
+    foregroundColor: _lightScheme.onPrimary,
   ),
   segmentedButtonTheme: _segmentButtonTheme,
 );
